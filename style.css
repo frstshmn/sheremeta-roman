@@ -118,6 +118,7 @@ a {
 
 .button {
     padding: 0.5em 2em;
+    margin-top: 1em;
     /*background-color: rgba(255, 255, 255);*/
     backdrop-filter: invert(100%);
     -webkit-backdrop-filter: invert(100%);
@@ -125,10 +126,6 @@ a {
     border-radius: 40px;
     font-weight: bold;
     transition: .5s;
-}
-
-.button + .button {
-    margin-top: 1em;
 }
 
 .button:hover {
